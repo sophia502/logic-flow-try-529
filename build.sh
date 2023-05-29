@@ -6,7 +6,6 @@
 # 使用 Node.js 16
 nvm use 16
 echo "nvm changed 16"
-npm install yarn
 echo "yarn install"
 yarn
 echo "run yarn"
