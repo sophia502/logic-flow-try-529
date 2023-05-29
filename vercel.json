@@ -1,9 +1,0 @@
-{
-  "routes": [
-    {
-      "src": "/examples",
-      "status": 301,
-      "headers": { "Location": "/deploy/examples" }
-    }
-  ]
-}
