@@ -1,12 +1,9 @@
 {
   "routes": [
     {
-      "src": "/",
-      "dest": "/deploy/docs/"
-    },
-    {
-      "src": "/examples",
-      "dest": "/deploy/examples/"
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "/deploy/$1" }
     }
   ]
 }
