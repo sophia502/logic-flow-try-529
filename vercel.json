@@ -1,7 +1,10 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/deploy/$1" },
-    { "source": "/docs", "destination": "/deploy/docs/#/" },
-    { "source": "/examples", "destination": "/deploy/examples/#/" }
+  "routes": [
+    {
+      "src": "/",
+      "status": 301,
+      "headers": { "Location": "/deploy" },
+      "dest": "/docs/#/"
+    }
   ]
 }
