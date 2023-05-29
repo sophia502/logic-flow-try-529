@@ -1,5 +1,7 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/deploy/#/$1" }
+    { "source": "/(.*)", "destination": "/deploy/$1" },
+    { "source": "/docs/(.*)", "destination": "/deploy/docs/#/$1" },
+    { "source": "/examples/(.*)", "destination": "/deploy/examples/#/$1" }
   ]
 }
