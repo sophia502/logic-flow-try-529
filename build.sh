@@ -5,10 +5,14 @@
 
 # 使用 Node.js 16
 nvm use 16
-
+echo "nvm changed 16"
 npm install yarn
+echo "yarn install"
 yarn
+echo "run yarn"
 yarn build
+echo "build yarn"
+
 rm -rf ./deploy
 mkdir -p deploy/examples
 mkdir -p deploy/docs

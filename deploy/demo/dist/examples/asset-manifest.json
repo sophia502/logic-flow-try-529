@@ -6,19 +6,19 @@
     "runtime-main.js": "/demo/dist/examples/static/js/runtime-main.fb88243c.js",
     "runtime-main.js.map": "/demo/dist/examples/static/js/runtime-main.fb88243c.js.map",
     "static/css/2.bff87ae7.chunk.css": "/demo/dist/examples/static/css/2.bff87ae7.chunk.css",
-    "static/js/2.774fbabf.chunk.js": "/demo/dist/examples/static/js/2.774fbabf.chunk.js",
-    "static/js/2.774fbabf.chunk.js.map": "/demo/dist/examples/static/js/2.774fbabf.chunk.js.map",
+    "static/js/2.aede5548.chunk.js": "/demo/dist/examples/static/js/2.aede5548.chunk.js",
+    "static/js/2.aede5548.chunk.js.map": "/demo/dist/examples/static/js/2.aede5548.chunk.js.map",
     "static/js/3.1110176f.chunk.js": "/demo/dist/examples/static/js/3.1110176f.chunk.js",
     "static/js/3.1110176f.chunk.js.map": "/demo/dist/examples/static/js/3.1110176f.chunk.js.map",
     "index.html": "/demo/dist/examples/index.html",
     "static/css/2.bff87ae7.chunk.css.map": "/demo/dist/examples/static/css/2.bff87ae7.chunk.css.map",
     "static/css/main.a0cc1b0e.chunk.css.map": "/demo/dist/examples/static/css/main.a0cc1b0e.chunk.css.map",
-    "static/js/2.774fbabf.chunk.js.LICENSE.txt": "/demo/dist/examples/static/js/2.774fbabf.chunk.js.LICENSE.txt"
+    "static/js/2.aede5548.chunk.js.LICENSE.txt": "/demo/dist/examples/static/js/2.aede5548.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fb88243c.js",
     "static/css/2.bff87ae7.chunk.css",
-    "static/js/2.774fbabf.chunk.js",
+    "static/js/2.aede5548.chunk.js",
     "static/css/main.a0cc1b0e.chunk.css",
     "static/js/main.133181ec.chunk.js"
   ]

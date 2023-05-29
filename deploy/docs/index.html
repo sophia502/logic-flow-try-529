@@ -4,7 +4,6 @@
     <script>
       // 获取当前路径
       const currentPath = window.location.pathname;
-
       // 如果当前路径是 '/docs'，重定向到 '/docs/#/'
       if (currentPath === '/docs') {
         window.location.href = '/docs/#/';
@@ -126,15 +125,22 @@
           language: language === "zh" ? "chinese" : "english",
         },
       };
+      const userAgent = window.navigator.userAgent;
+      const platform = window.navigator.platform;
+      Omega.trackEvent('user-info', 'urser-info', {
+        language,
+        userAgent,
+        platform,
+      })
     </script>
-    <script src="./static/docsify.min.js"></script>
-    <script src="./static/countable.js"></script>
-    <script src="./static/search.min.js"></script>
-    <script src="./static/docsify-copy-code.min.js"></script>
-    <script src="./static/docsify-pagination.min.js"></script>
-    <script src="./static/prism-typescript.min.js"></script>
-    <script src="./static/prism-powershell.min.js"></script>
-    <script src="./static/prism-jsx.min.js"></script>
+    <script src="./static/docsify.min.js" async></script>
+    <script src="./static/countable.js" async></script>
+    <script src="./static/search.min.js" async></script>
+    <script src="./static/docsify-copy-code.min.js" async></script>
+    <script src="./static/docsify-pagination.min.js" async></script>
+    <script src="./static/prism-typescript.min.js" async></script>
+    <script src="./static/prism-powershell.min.js" async></script>
+    <script src="./static/prism-jsx.min.js" async></script>
     <script></script>
   </body>
 </html>
