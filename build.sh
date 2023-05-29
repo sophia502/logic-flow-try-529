@@ -1,3 +1,11 @@
+#!/bin/bash
+
+# 加载 nvm
+. ~/.nvm/nvm.sh
+
+# 使用 Node.js 16
+nvm use 16
+
 npm install yarn
 yarn
 yarn build
