@@ -13,9 +13,9 @@
   ],
   "private": true,
   "scripts": {
-    "build": "lerna run build",
+    "build": "sh build.sh",
     "build:local": "lerna run build && sh remove.sh",
-    "build:vercel": "sh build.sh",
+    "build:lerna": "lerna run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

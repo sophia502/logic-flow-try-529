@@ -7,10 +7,8 @@
 nvm use 16
 echo "nvm changed 16"
 echo "yarn install"
-yarn
-echo "run yarn"
-yarn build
-echo "build yarn"
+yarn build:lerna
+echo "build yarn - lerna"
 
 rm -rf ./deploy
 mkdir -p deploy/examples
