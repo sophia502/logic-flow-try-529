@@ -1,14 +1,5 @@
-#!/bin/bash
-
-# 加载 nvm
-. ~/.nvm/nvm.sh
-
-# 使用 Node.js 16
-nvm use 16
-echo "nvm changed 16"
-echo "yarn install"
+yarn
 yarn build:lerna
-echo "build yarn - lerna"
 
 rm -rf ./deploy
 mkdir -p deploy/examples
