@@ -3,8 +3,11 @@
     {
       "src": "/",
       "status": 301,
-      "headers": { "Location": "/deploy" },
-      "dest": "/docs/#/"
+      "headers": { "Location": "/deploy" }
+    },
+    {
+      "src": "/docs/(.*)",
+      "dest": "/docs/#/$1"
     }
   ]
 }
