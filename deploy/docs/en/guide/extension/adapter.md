@@ -110,4 +110,4 @@ lf.getGraphData();
 
 ### Example
 
-<a href="https://docs.logic-flow.cn/demo/dist/examples/#/extension/adapter?from=doc" target="_blank"> Demo in CodeSandBox</a>
+<a href="https://lf.hippor.com/demo/dist/examples/#/extension/adapter?from=doc" target="_blank"> Demo in CodeSandBox</a>
